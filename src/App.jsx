@@ -69,3 +69,4 @@ function App() {
 }
 
 export default App;// localStorage integration added
+// Refactored state management logic
