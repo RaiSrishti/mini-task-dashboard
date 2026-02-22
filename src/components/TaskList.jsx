@@ -17,3 +17,4 @@ function TaskList({ tasks, deleteTask, toggleComplete }) {
 }
 
 export default TaskList;
+// Task deletion logic implemented
