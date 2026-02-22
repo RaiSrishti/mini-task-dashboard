@@ -1,0 +1,125 @@
+/* Main Wrapper */
+.app {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f9;
+  transition: 0.3s ease;
+}
+
+/* Dark Mode Background */
+.app.dark {
+  background: #111827;
+}
+
+/* Dashboard Card */
+.container {
+  width: 100%;
+  max-width: 650px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Dark Mode Card */
+.app.dark .container {
+  background: #1f2937;
+  color: white;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #111;
+}
+
+.app.dark .header h1 {
+  color: white;
+}
+
+.header button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4f46e5;
+  color: white;
+  cursor: pointer;
+}
+
+/* Form */
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.task-form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #16a34a;
+  color: white;
+  cursor: pointer;
+}
+
+/* Summary */
+.summary {
+  background: #e0e7ff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.app.dark .summary {
+  background: #374151;
+  color: white;
+}
+
+/* Tasks */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3f4f6;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.app.dark .task-item {
+  background: #4b5563;
+  color: white;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-item button {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
