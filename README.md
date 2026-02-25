@@ -22,14 +22,14 @@ Build an interactive dashboard using React that demonstrates:
 
 ##  Features Implemented
 
-✔ Create tasks dynamically  
-✔ Add new tasks  
-✔ Delete tasks  
-✔ Mark tasks as completed (checkbox toggle)  
-✔ Dark/Light theme toggle  
-✔ Task summary (Total, Completed, Pending)  
-✔ Persistent storage using browser `localStorage`  
-✔ Clean and modular component structure  
+ Create tasks dynamically  
+ Add new tasks  
+ Delete tasks  
+ Mark tasks as completed (checkbox toggle)  
+ Dark/Light theme toggle  
+ Task summary (Total, Completed, Pending)  
+ Persistent storage using browser `localStorage`  
+ Clean and modular component structure  
 
 ---
 
