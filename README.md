@@ -1,6 +1,6 @@
-# 🖥️ Interactive Task Dashboard
+#  Interactive Task Dashboard
 
-## 📌 Project Overview
+##  Project Overview
 
 The **Interactive Task Dashboard** is a frontend React application built to demonstrate state management, dynamic rendering, and clean component architecture. 
 
@@ -8,7 +8,7 @@ This project allows users to create, manage, and track tasks in an interactive d
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Build an interactive dashboard using React that demonstrates:
 
@@ -20,7 +20,7 @@ Build an interactive dashboard using React that demonstrates:
 
 ---
 
-## 🚀 Features Implemented
+##  Features Implemented
 
 ✔ Create tasks dynamically  
 ✔ Add new tasks  
@@ -33,7 +33,7 @@ Build an interactive dashboard using React that demonstrates:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - React.js (Functional Components)
 - JavaScript (ES6+)
@@ -44,8 +44,8 @@ Build an interactive dashboard using React that demonstrates:
 
 ---
 
-## 📂 Project Structure
-
+##  Project Structure
+```
 
 │
 ├── src/
@@ -63,7 +63,7 @@ Build an interactive dashboard using React that demonstrates:
 │
 ├── package.json
 └── README.md
-
+```
 ---
 
 ##  Installation & Setup Instructions
